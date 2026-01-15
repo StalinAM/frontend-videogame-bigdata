@@ -100,12 +100,6 @@ curl http://localhost:8000/games/top-reviewed
 curl http://localhost:8000/products/top-reviewed-names?limit=5
 ```
 
-## Seguridad y buenas prácticas
-
-- No subas `.env.local` ni claves al repo.
-- Si no usas Easyparser, elimina la clave y la lógica asociada en el store.
-- Mantén sincronizados los contratos de backend y frontend.
-
 ## Despliegue
 
 1. Configura `VITE_API_BASE` en producción.
